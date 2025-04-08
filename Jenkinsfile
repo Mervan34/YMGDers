@@ -44,7 +44,7 @@ pipeline{
     
     post{
         success{
-            echo "Yayın başarılı: http://localhost:5050"
+            echo "Yayın başarılı: http://localhost:4444"
         }
         failure{
             echo "Pipeline başarısız oldu"
